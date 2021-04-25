@@ -1,7 +1,6 @@
-Welcome to your Jupyter Book
+Velkommen til Pythonboka
 ============================
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Dette er en interaktiv bok om Python på norsk. Den er ennå nokså uferdig. Snart får du lese om - og prøve - hvordan Python kan hjelpe deg å løse en rekke oppgaver.
 
-Check out the content pages bundled with this sample book to get started.
+Har du forslag til forbedringer eller temaer du ønsker å lese om, kan du bruke katte-knappen i menyen øverst på siden, og velge "open issue".
