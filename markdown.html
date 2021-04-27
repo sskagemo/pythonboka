@@ -44,15 +44,15 @@
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Python-kode og tekst side ved side med Jupyter Notebook" href="notebooks.html" />
-    <link rel="prev" title="Innhold i Python-boka" href="innhold.html" />
+    <link rel="prev" title="Hva slags bok er dette?" href="innhold.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -70,8 +70,6 @@
     
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">Pythonboka</h1>
@@ -92,7 +90,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="innhold.html">
-   Innhold i Python-boka
+   Hva slags bok er dette?
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -169,11 +167,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://sskagemo.github.io/pythonboka/"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/sskagemo/pythonboka"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://sskagemo.github.io/pythonboka//issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/sskagemo/pythonboka/issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -355,8 +353,8 @@ see <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyS
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "sskagemo/pythonboka",
+            ref: "gh-pages",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -376,7 +374,7 @@ see <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyS
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="innhold.html" title="previous page">Innhold i Python-boka</a>
+    <a class='left-prev' id="prev-link" href="innhold.html" title="previous page">Hva slags bok er dette?</a>
     <a class='right-next' id="next-link" href="notebooks.html" title="next page">Python-kode og tekst side ved side med Jupyter Notebook</a>
 
         </div>

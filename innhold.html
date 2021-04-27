@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Innhold i Python-boka &#8212; Pythonboka</title>
+    <title>Hva slags bok er dette? &#8212; Pythonboka</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -44,9 +44,9 @@
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -71,8 +71,6 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
       
       <h1 class="site-logo" id="site-title">Pythonboka</h1>
       
@@ -92,7 +90,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
   <a class="current reference internal" href="#">
-   Innhold i Python-boka
+   Hva slags bok er dette?
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -169,11 +167,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://sskagemo.github.io/pythonboka/"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/sskagemo/pythonboka"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://sskagemo.github.io/pythonboka//issues/new?title=Issue%20on%20page%20%2Finnhold.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/sskagemo/pythonboka/issues/new?title=Issue%20on%20page%20%2Finnhold.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -202,9 +200,15 @@
         
               <div>
                 
-  <div class="section" id="innhold-i-python-boka">
-<h1>Innhold i Python-boka<a class="headerlink" href="#innhold-i-python-boka" title="Permalink to this headline">¶</a></h1>
-<p>En kjapp oversikt …</p>
+  <div class="section" id="hva-slags-bok-er-dette">
+<h1>Hva slags bok er dette?<a class="headerlink" href="#hva-slags-bok-er-dette" title="Permalink to this headline">¶</a></h1>
+<p>Eller rettere sagt, hva slags bok vil dette bli? Vel, aller først, selv om det heter bok, er det bare nettsider. Foreløpig, ihvertfall.</p>
+<p>Målet med disse nettsidene er å:</p>
+<ol class="simple">
+<li><p>motivere flere til å lære seg å kode. Om det blir med Python eller et annet programmeringsspråk er ikke så viktig. Men Python er ihvertfall et godt valg.</p></li>
+<li><p>gi en innføring i Python, og gjøre det lett å komme igang. Men ikke minst å:</p></li>
+<li><p>få frem eksempler på hvordan Python kan løse oppgaver i hverdagen</p></li>
+</ol>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -213,8 +217,8 @@
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "sskagemo/pythonboka",
+            ref: "gh-pages",
         },
         codeMirrorConfig: {
             theme: "abcdef",
