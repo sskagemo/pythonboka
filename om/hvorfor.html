@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>En bok om Python – hvorfor det? &#8212; Pythonboka</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Hva slags bok er dette?" href="../innhold.html" />
+    <link rel="prev" title="Velkommen til Pythonboka" href="../intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Pythonboka</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Velkommen til Pythonboka
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Om denne boka
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   En bok om Python – hvorfor det?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../innhold.html">
+   Hva slags bok er dette?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown.html">
+   Markdown Files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks.html">
+   Python-kode og tekst side ved side med Jupyter Notebook
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/om/hvorfor.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/sskagemo/pythonboka"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/sskagemo/pythonboka/issues/new?title=Issue%20on%20page%20%2Fom/hvorfor.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grunner-til-a-laere-programmering">
+   Grunner til å lære programmering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grunner-til-a-velge-python-som-forste-programmeringssprak">
+   Grunner til å velge Python som første programmeringsspråk
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grunner-til-a-skrive-en-bok-om-programmering-pa-norsk">
+   Grunner til å skrive en bok om programmering på norsk
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="en-bok-om-python-hvorfor-det">
+<h1>En bok om Python – hvorfor det?<a class="headerlink" href="#en-bok-om-python-hvorfor-det" title="Permalink to this headline">¶</a></h1>
+<p>Python er et av verdens mest populære programmeringsspråk, og det er mange grunner til det. Og det er også mange grunner til at det er lurt å lære å programmere. Så den korte oppsummeringen er at en bok, på norsk, om Python, skal gjøre det enklere for flere å lære programmering.</p>
+<p>Nedenfor er en litt grundigere gjennomgang av de forskjellige grunnene.</p>
+<div class="section" id="grunner-til-a-laere-programmering">
+<h2>Grunner til å lære programmering<a class="headerlink" href="#grunner-til-a-laere-programmering" title="Permalink to this headline">¶</a></h2>
+<p>Veldig mange har allerede tatt til orde for at “alle” bør lære å programmere, og det er</p>
+</div>
+<div class="section" id="grunner-til-a-velge-python-som-forste-programmeringssprak">
+<h2>Grunner til å velge Python som første programmeringsspråk<a class="headerlink" href="#grunner-til-a-velge-python-som-forste-programmeringssprak" title="Permalink to this headline">¶</a></h2>
+<p>Det finnes selvsagt andre programmeringsspråk som er gode kandidater hvis du lurer på hvilket du skal velge, og jeg skal ikke påstå at Python er det desidert beste valget. Men ved valg av språk kan det være ulike hensyn å vurdere: Det bør være lett å komme igang og lett å forstå språket. Samtidig bør det også ganske raskt være mulig å gjøre noe med språket som er nyttig. Og helst bør språket “vokse”, sånn at du etterhvert kan løse også avanserte oppgaver. Hvor mye et språk kan brukes til henger også sammen med hvor populært det er. Jo flere som bruker det, jo større er sannsynligheten for at det allerede er noen som har brukt det til lignende oppgaver, og at det finnes moduler og verktøy som</p>
+<p>Et siste poeng er eierskapet til språket. Noen språk eies og forvaltes av kommersielle selskap, mens andre, som Python, er åpen kildekode og forvaltes av en uavhengig organisasjon, Python Software Foundation.</p>
+<p>Som du sikkert har gjettet mener jeg Python er et programmeringsspråk som har de egenskapene jeg har nevnt her.</p>
+<p>Lett å bruke</p>
+<hr class="docutils" />
+<p>interaktiv
+ikke kompilering</p>
+<p>Lett å forstå</p>
+<hr class="docutils" />
+<p>Python er laget for å være lett å lese (fordi kode skrives en gang men leses mange ganger) og derfor kan det nesten leses som engelsk. Nedenfor er noen eksempler på kode (det som kommer etter &gt;&gt;&gt; og … er kode som er skrevet inn, og det som står uten tegn foran er “svaret” når koden kjøres)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">3</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="go">6</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">6</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Python kan regne!&#39;</span><span class="p">)</span>
+<span class="go">Python kan regne!</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+<p>Gjøre avanserte ting</p>
+<hr class="docutils" />
+<p>Riktignok er det sånn at når du kan så mye programmering at du skal gjøre avanserte ting, vil du sannsynligvis også raskt kunne lære nye språk. Det er egentlig alene en grunn til å starte å lære programmering, for så fort du har lært et programmeringsspråk blir det mye enklere å lære det neste. Men selv om det blir relativt enkelt å lære seg nye språk når du først har lært et, er det selvsagt ikke noen ulempe om det du språket du allerede har brukt tid på å lære, også er fleksibelt og avansert nok til kunne brukes til det meste.</p>
+<p>Men Python har også noen svakheter …</p>
+<hr class="docutils" />
+<p>Python er ikke et perfekt språk, så det er verdt å nevne noen av svakhetene også. Det handler også ofte om valg og balansering av hensyn, for å få mer av noe må man gi opp noe annet.</p>
+<ul class="simple">
+<li><p>Hastighet: Python er regnet som et tregt språk; når Python-kode kjøres brukes det relativt mye minne og det går relativt tregt sammenlignet med en del andre språk. Men som nevnt er denne svakheten ikke til hinder for at Python brukes i driftskritiske systemer, og i stor skala. Når det er enkelt å utvikle ny funksjonalitet, er det også enklere å forbedre systemer for å komme rundt flaskehalser. Ofte er det andre ting enn selve kjøringen av koden som er kritisk for om et system er tregt eller ikke.</p></li>
+<li><p>Interaktivitet i nettlesere: Python er mye brukt for å lage nettsider, mer presist for å styre det som skjer på serverne som leverer nettsidene til nettleseren. Men på et område, interaktivitet i nettleseren, er det et annet språk som dominerer totalt, nemlig JavaScript. JavaScript er et språk som det er innebygget støtte for i alle nettleserne. Med utviklingen av nettleserteknologi, er det ikke usannsynlig at Python også blir et alternativ til JavaScript for å styre nettlesere i fremtiden.</p></li>
+<li><p>Mobil: Python er foreløpig ikke et av de foretrukne språkene for å lage app-er på de ulike mobil-plattformene, Android og Apple iOS.</p></li>
+<li></li>
+</ul>
+</div>
+<div class="section" id="grunner-til-a-skrive-en-bok-om-programmering-pa-norsk">
+<h2>Grunner til å skrive en bok om programmering på norsk<a class="headerlink" href="#grunner-til-a-skrive-en-bok-om-programmering-pa-norsk" title="Permalink to this headline">¶</a></h2>
+<p>Vel, jeg må innrømme at den aller viktigste grunnen til at jeg har begynt å skrive denne boken, er at jeg har lyst til å gjøre det. Så jeg skal kanskje ikke påstå at det finnes noen objektive grunner til at denne boken bare <em>må</em> skrives.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "sskagemo/pythonboka",
+            ref: "gh-pages",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./om"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">Velkommen til Pythonboka</a>
+    <a class='right-next' id="next-link" href="../innhold.html" title="next page">Hva slags bok er dette?</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Steinar Skagemo<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+    
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+
+    
+  </body>
+</html>
