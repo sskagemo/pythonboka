@@ -1,8 +1,12 @@
 # Table of content
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
-- file: intro
-- file: innhold
-  sections:
-    - file: markdown
-    - file: notebooks
+format: jb-book
+root: intro
+parts:
+- caption: Om denne boka
+  chapters:
+  - file: om/hvorfor.md
+  - file: innhold
+  - file: markdown
+  - file: notebooks
