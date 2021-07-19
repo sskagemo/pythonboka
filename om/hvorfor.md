@@ -3,12 +3,30 @@ En bok om Python -- hvorfor det?
 
 Python er et av verdens mest populære programmeringsspråk, og det er mange grunner til det. Og det er også mange grunner til at det er lurt å lære å programmere. Så den korte oppsummeringen er at en bok, på norsk, om Python, skal gjøre det enklere for flere å lære programmering. 
 
-Nedenfor er en litt grundigere gjennomgang av de forskjellige grunnene.
+Nedenfor er mer om de forskjellige grunnene.
 
 Grunner til å lære programmering
 --------------------------------
 
-Veldig mange har allerede tatt til orde for at "alle" bør lære å programmere, og det er 
+Mange har allerede tatt til orde for at "alle" bør lære å programmere, og at programmering er en kunnskap som bør sidestilles med å kunne lese, skrive og regne. Noen omtaler programmering som en "superpower". En ting er at vi idag omgir oss med digitale hjelpemidler som kan løse mange oppgaver for oss, for eksempel tekstbehandling og regneark. Men det er et stort sprang fra å være prisgitt de verktøyene andre har laget, til å selv kunne lage hjelpemidlene som passer nøyaktig til de oppgavene _du_ trenger å løse.
+
+En av mine favorittbøker for å lære Python tar utgangspunkt i nettopp det siste, at det ikke finnes ferdige verktøy for akkurat de oppgavene _du_ skal løse, og som er laget for å håndtere akkurat den kombinasjonen av datakilder og verktøy og tjenester: "Automate the Boring Stuff with Python" av Al Sweigart. Den er [gratis tilgjengelig som nettsider](https://automatetheboringstuff.com/2e/) og finnes også som fysisk bok.
+
+Et eksempel jeg selv har erfaring med er å forsøke å orientere meg i båtmarkedet på Finn.no. Finn.no tilbyr mulighet til å lagre annonser som favoritter, og du kan velge mellom å vise et utvalg av opplysninger i en listevisning, eller se på detaljene. Men jeg fikk ikke nok detaljer i listevisningen, og mistet samtidig oversikten i detaljvisningen, så jeg laget en løsning som plukket ut den informasjonen jeg ville ha for de annonsene jeg valgte, og fikk et regneark som passet bedre for meg. Det kunne jeg også dele med han jeg skulle kjøpe båt sammen med, i motsetning til om jeg lagret favoritter og tok notater i Finn. Hadde jeg holdt på lenger kunne jeg antagelig også begynt å rangere annonser etter om prisen var uvanlig lav eller høy.
+
+En som har tatt dette et steg lenger, er investeringsdirektør i Nordea Markets, Robert Næss. I et intervju i Dagens Næringsliv 2. januar 2021 står det følgende: "Hva gjør forvalter og Nordea-topp Robert Næss når han skal planlegge fremtidige investeringer? Han sjekker Finn.no.". Og han sjekker ikke Finn.no manuelt, men har automatisert prosessene:
+
+"- Hver dag laster jeg ned alle boligannonsene på finn, sjekker prisutviklingen. For hele landet. Har laget en for Danmark også. Og en for fritidseiendommer, biler og båter. Og stillinger."
+
+Det fremgår ikke fra intervjuet, men i en annen podcast ... )
+
+For læring og forståelse:
+
+"- Jeg har jobbet mye med det og programmert min egen prototype på en kryptovaluta. Under det arbeidet har jeg funnet ut at Bitcoin faktisk fungerer dårlig teknisk."
+Fra intervju i [Nettavisen](https://www.nettavisen.no/okonomi/investeringsdirektor-advarer-bitcoin-er-for-tomsinger/s/12-95-3424126959)
+
+
+Jeg er (ikke overraskende) en tilhenger av at programmering blir et fag i skolen, og programmering er nå en del av de nye læreplanene for grunnskolen. 
 
 
 Grunner til å velge Python som første programmeringsspråk
@@ -35,12 +53,12 @@ _____________
 Python er laget for å være lett å lese (fordi kode skrives en gang men leses mange ganger) og derfor kan det nesten leses som engelsk. Nedenfor er noen eksempler på kode (det som kommer etter >>> og ... er kode som er skrevet inn, og det som står uten tegn foran er "svaret" når koden kjøres)
 
 ```python
->>> 3 + 3
+>>> 3 + 3 # dette taster vi inn, og når vi trykker enter kommer resultatet på neste linje
 6
 
 >>> if 3 + 3 == 6:
-...     print('Python kan regne!')
-Python kan regne!
+...     print('Python regner riktig!')
+Python regner riktig!
 >>>
 ```
 
